@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Card-bootstrap</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="data:image/jpeg;base64,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"
+                        alt="image not found">
+                    <div class="card-body">
+                        <h5 class="card-title">M.S Dhoni</h5>
+                        <p class="card-text">Mahendra Singh Dhoni (/məˈheɪndrə ˈsɪŋ dhæˈnɪ/ ⓘ; born 7 July 1981) is an
+                            Indian professional cricketer who plays as a right handed batter and a wicket-keeper. Widely
+                            regarded as one of the most prolific wicket-keeper-batsmen and captains, he represented the
+                            Indian cricket team and was the captain of the side in limited-overs formats from 2007 to
+                            2017 and in test cricket from 2008 to 2014. Dhoni has captained the most international
+                        </p>
+                    </div>
+                    <button class="btn btn-outline-primary"
+                        onclick="window.location.href='https://en.wikipedia.org/wiki/MS_Dhoni';">Read more...</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Ravindra Jadeja</h5>
+                        <p class="card-text">Ravindrasinh Anirudhsinh Jadeja (born 6 December 1988) is an Indian
+                            international cricketer who represents the Indian national cricket team in all formats. He
+                            is an all-rounder, who bats left-handed and bowls left-arm orthodox spin. He is regarded as
+                            one of the best all-rounders of his generation, becoming the fifth Indian and fifth-fastest
+                            player to score 2,000 runs and take 200 wickets in Test cricket in 2021.</p>
+                    </div>
+                    <button class="btn btn-outline-primary"
+                        onclick="window.location.href='https://en.wikipedia.org/wiki/Ravindra_Jadeja';">Read
+                        More..</button>
+                    <img class="card-img-bottam"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Ravindra_Jadeja_in_2018.jpg/220px-Ravindra_Jadeja_in_2018.jpg"
+                        alt="image not found">
+
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-bg-light">
+                    <img height="500px" class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ9btE80FR_pmtu2Y1B8xm_MVh_Wt2o10NtQ&s"
+                        class="card-img" alt="image not found">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">
+                            Vidyut Jammwal</h5>
+                        <p class="card-text">Vidyut Dev Singh Jammwal (born 12 December 1980)[1][2] is an Indian actor,
+                            martial artist[3] and film producer who predominantly works in Hindi films. He is also a
+                            practitioner of Kalaripayattu, which he showcased in the film Junglee (2019).[4][5] He is
+                            best known for his roles in the Commando film series, and is a recipient of several
+                            accolades, including a Stardust Award, FICCI Frames Award, Filmfare Award, and IIFA
+                            Award.[6] </p>
+                            <button class="btn btn-outline-primary"
+                            onclick="window.location.href='https://en.wikipedia.org/wiki/Vidyut_Jammwal'">More
+                            Read..</button>
+                
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <h3 class="card-title">Akshay Kumar 😎</h3>
+                    <h5 class="card-subtitle">Indian Actor </h5>
+                    <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTALsfozohiUH-hMfqZ_nhjAP5KkWrvKhjlEQ&s" alt="Image Not Found">
+                    <button class="btn btn-outline-primary" onclick="window.location.href='https://en.wikipedia.org/wiki/Akshay_Kumar'">More Read...</button>
+                    <ul class="list-group">
+                        <li class="list-group-item">Hritik Roshan</li>
+                        <li class="list-group-item">Amitabh Bachchan. ..</li>
+                        <li class="list-group-item">Ajay Devgan. ...</li>
+                        <li class="list-group-item">Prabhas.</li>
+                        <li class="list-group-item">Mahesh Babu</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
